@@ -29,7 +29,7 @@ router.get('/students', (req, res, next) => {
 });
 
 // http://localhost:${PORT}/api/student/id PUT
-router.put('/student/:id', (req, res, next) => {
+router.put('/students/:id', (req, res, next) => {
   const { id } = req.params;
 
   // En un servidor profesional, aquí deberían haber muchos supuestos para lanzar correctamente la información

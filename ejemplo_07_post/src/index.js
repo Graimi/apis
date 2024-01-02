@@ -80,7 +80,7 @@ router.get('/students/:filter', (req, res, next) => {
 
 // Creamos un estudiante con POST con el siguiente endpoint
 // http://localhost:${PORT}/api/student POST
-router.post('/student', (req, res, next) => {
+router.post('/students', (req, res, next) => {
   console.log(req.body);
 
   const newStudent = { id: students.length+1, name: req.body.name };
