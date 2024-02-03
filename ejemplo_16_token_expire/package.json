@@ -1,0 +1,13 @@
+{
+  "name": "ejemplo_16_token_expire",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "node --watch ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
